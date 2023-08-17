@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">The time on the server is @DateTime.Now</p>
+        <h4 class="my-4">Let's learn devops together.</h4>
+    </div>
+    <p>Here are some helpful resources:</p>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <a href="https://dotnet.microsoft.com/en-us/learn/aspnet/hello-world-tutorial/install">Creating a new .NET app</a>
+            <p>This tutorial shows you how to create a new ASP.NET Core application and deploy it to Azure App Service.</p>
+        </li>
+        <li class="list-group-item">
+            <a href="https://azuredevopsdemogenerator.azurewebsites.net/">Azure DevOps Demo Generator</a>
+            <p>This tool allows you to create a template Azure DevOps project that you can use to demonstrate Azure DevOps functionality.</p>
+        </li>
+        <li class="list-group-item">
+            <a href="https://azuredevopslabs.com/labs/vstsextend/kubernetes/">Kubernetes with Azure DevOps</a>
+            <p>This lab demonstrates how to deploy a multi-container application to Kubernetes using Azure DevOps.</p>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/microsoft/azuredevopslabs/tree/master">Azure DevOps Labs GitHub repository</a>
+            <p>This GitHub repository contains a collection of labs and at-your-own-pace training materials for learning about and getting hands-on with Azure DevOps.</p>
+        </li>
+    </ul>
+</div>

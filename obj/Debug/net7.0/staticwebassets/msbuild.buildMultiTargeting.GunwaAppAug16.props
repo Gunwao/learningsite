@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/GunwaAppAug16.props" />
+</Project>
